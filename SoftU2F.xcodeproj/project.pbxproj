@@ -7,26 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5119862E1E3C1519006A3BBB /* KnownFacets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5119862D1E3C1519006A3BBB /* KnownFacets.swift */; };
+		382DF1AF30EFDFD4B0520D6D /* Pods_APDU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E60E4F160048EAB73473028 /* Pods_APDU.framework */; };
 		51203C391E39234000F661DF /* U2FHIDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51203C381E39234000F661DF /* U2FHIDTests.swift */; };
 		51213EC21E3834F8005454E0 /* TestUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51213EC11E3834F8005454E0 /* TestUtil.swift */; };
-		51213EC61E3916EB005454E0 /* U2FHID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51213EC51E3916EB005454E0 /* U2FHID.swift */; };
 		5131C1B01E3B9C62006A820C /* IntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5131C1AE1E3B9C62006A820C /* IntegrationTests.swift */; };
 		5131C1B21E3B9EA1006A820C /* libu2f-host.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5131C1B11E3B9EA1006A820C /* libu2f-host.a */; };
-		514F3D821E43C833008FA513 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F3D811E43C833008FA513 /* Keychain.swift */; };
-		514F3D871E43E828008FA513 /* KeyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F3D861E43E828008FA513 /* KeyPair.swift */; };
-		5190B6121E3BFE3D00E6FE06 /* UserPresence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5190B6111E3BFE3D00E6FE06 /* UserPresence.swift */; };
-		51B289E51E39903F00AD90CC /* U2FAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B289E41E39903F00AD90CC /* U2FAuthenticator.swift */; };
 		51E2145E1E3823E0005B2864 /* SHA256Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2145D1E3823E0005B2864 /* SHA256Tests.swift */; };
-		51E214601E3823E7005B2864 /* SHA256.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2145F1E3823E7005B2864 /* SHA256.swift */; };
-		51E214621E382521005B2864 /* WebSafeBase64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E214611E382521005B2864 /* WebSafeBase64.swift */; };
 		51E214641E382529005B2864 /* WebSafeBase64Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E214631E382529005B2864 /* WebSafeBase64Tests.swift */; };
 		51EF60B21E427EE200D429F2 /* UtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EF60B11E427EE200D429F2 /* UtilsTests.swift */; };
-		51F090101E37E8C600F03AD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F0900F1E37E8C600F03AD3 /* AppDelegate.swift */; };
-		51FE30ED1E403DA000BAE824 /* U2FRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE30EC1E403DA000BAE824 /* U2FRegistration.swift */; };
 		51FE30EF1E40F3DB00BAE824 /* U2FRegistrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE30EE1E40F3DB00BAE824 /* U2FRegistrationTests.swift */; };
-		51FE30F11E410B3D00BAE824 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE30F01E410B3D00BAE824 /* Utils.swift */; };
 		51FFC71F1E3FEAA4006275E2 /* SoftU2FTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FFC71E1E3FEAA4006275E2 /* SoftU2FTestCase.swift */; };
+		5CE91DAF1D791AA3881EE28C /* Pods_SoftU2F.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F761445228665992F28A55 /* Pods_SoftU2F.framework */; };
+		605EEAEFE03C4088147D231E /* Pods_SelfSignedCertificate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6774B3EB09E83C10D226EEF3 /* Pods_SelfSignedCertificate.framework */; };
+		8981DD704AE44EDF071C73EA /* Pods_SoftU2FTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D9E1998106454700DAB752 /* Pods_SoftU2FTests.framework */; };
+		9E3292E27CD0263989D497DF /* Pods_SelfSignedCertificateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47481990076229858F513F82 /* Pods_SelfSignedCertificateTests.framework */; };
+		B10D3CFB72EA7C0448A79A49 /* Pods_APDUTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E170BB48AD855A8ABFD38531 /* Pods_APDUTests.framework */; };
+		BD2FFD8F20D3D0C000677A5C /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2FFD8E20D3D0C000677A5C /* Crypto.swift */; };
+		BD2FFD9020D3D74200677A5C /* U2FRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE30EC1E403DA000BAE824 /* U2FRegistration.swift */; };
+		BD2FFD9120D3D76000677A5C /* KeyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F3D861E43E828008FA513 /* KeyPair.swift */; };
+		BD2FFD9220D3D76D00677A5C /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F3D811E43C833008FA513 /* Keychain.swift */; };
+		BD2FFD9D20D3EB0700677A5C /* SelfSignedCertificateiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = BD2FFD9B20D3EB0700677A5C /* SelfSignedCertificateiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD2FFDA020D3EB0700677A5C /* SelfSignedCertificateiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2FFD9920D3EB0700677A5C /* SelfSignedCertificateiOS.framework */; };
+		BD2FFDA120D3EB0700677A5C /* SelfSignedCertificateiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD2FFD9920D3EB0700677A5C /* SelfSignedCertificateiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BD2FFDAE20D3EB2E00677A5C /* APDUiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = BD2FFDAC20D3EB2E00677A5C /* APDUiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD2FFDB120D3EB2E00677A5C /* APDUiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2FFDAA20D3EB2E00677A5C /* APDUiOS.framework */; };
+		BD2FFDB220D3EB2E00677A5C /* APDUiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD2FFDAA20D3EB2E00677A5C /* APDUiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BD2FFDB720D3EB4B00677A5C /* private.h in Headers */ = {isa = PBXBuildFile; fileRef = F738F57D1E4A34EE005680A2 /* private.h */; };
+		BD2FFDBA20D3ED6E00677A5C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F5521E4A2FF0005680A2 /* Constants.swift */; };
+		BD2FFDBB20D3ED6E00677A5C /* RawConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B5DBAE1E4A815700E5ABD4 /* RawConvertible.swift */; };
+		BD2FFDBC20D3ED6E00677A5C /* MessagePart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B5DBB21E4A82EB00E5ABD4 /* MessagePart.swift */; };
+		BD2FFDBD20D3ED6E00677A5C /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B5DBAC1E4A5CED00E5ABD4 /* Command.swift */; };
+		BD2FFDBE20D3ED6E00677A5C /* CommandHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F51B1E4A2DDD005680A2 /* CommandHeader.swift */; };
+		BD2FFDBF20D3ED6E00677A5C /* CommandTrailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F51C1E4A2DDD005680A2 /* CommandTrailer.swift */; };
+		BD2FFDC020D3ED6E00677A5C /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B5DBC81E4A8CF000E5ABD4 /* Response.swift */; };
+		BD2FFDC120D3ED6E00677A5C /* AuthenticationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F5041E4A2CF6005680A2 /* AuthenticationRequest.swift */; };
+		BD2FFDC220D3ED6E00677A5C /* AuthenticationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F5051E4A2CF6005680A2 /* AuthenticationResponse.swift */; };
+		BD2FFDC520D3ED6E00677A5C /* VersionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F5091E4A2CF6005680A2 /* VersionRequest.swift */; };
+		BD2FFDC620D3ED6E00677A5C /* VersionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F50A1E4A2CF6005680A2 /* VersionResponse.swift */; };
+		BD2FFDC720D3ED6E00677A5C /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F5061E4A2CF6005680A2 /* ErrorResponse.swift */; };
+		BD2FFDC820D3EE8F00677A5C /* UserPresence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5190B6111E3BFE3D00E6FE06 /* UserPresence.swift */; };
+		BD2FFDC920D3EE8F00677A5C /* WebSafeBase64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E214611E382521005B2864 /* WebSafeBase64.swift */; };
+		BD2FFDCA20D3EE8F00677A5C /* SHA256.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2145F1E3823E7005B2864 /* SHA256.swift */; };
+		BD2FFDCB20D3EE8F00677A5C /* CLI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7713A5D1F477BA90036A0D5 /* CLI.swift */; };
+		BD2FFDCC20D3EE8F00677A5C /* U2FAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B289E41E39903F00AD90CC /* U2FAuthenticator.swift */; };
+		BD2FFDCD20D3EE8F00677A5C /* U2FHID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51213EC51E3916EB005454E0 /* U2FHID.swift */; };
+		BD2FFDCE20D3EE8F00677A5C /* KnownFacets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5119862D1E3C1519006A3BBB /* KnownFacets.swift */; };
+		BD2FFDD020D3EE8F00677A5C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7713A5E1F477BA90036A0D5 /* Settings.swift */; };
+		BD2FFDD120D3EE8F00677A5C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE30F01E410B3D00BAE824 /* Utils.swift */; };
+		BD2FFDD220D3F19100677A5C /* SelfSignedCertificateiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2FFD9920D3EB0700677A5C /* SelfSignedCertificateiOS.framework */; };
+		BD2FFDD820D3F29E00677A5C /* RegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2FFDD620D3F20E00677A5C /* RegisterResponse.swift */; };
+		BD2FFDDA20D3F2EB00677A5C /* RegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F5081E4A2CF6005680A2 /* RegisterResponse.swift */; };
+		BD2FFDDB20D3F37600677A5C /* Endian.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F5271E4A2E57005680A2 /* Endian.swift */; };
+		BD2FFDDD20D3F38900677A5C /* DataWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F5261E4A2E57005680A2 /* DataWriter.swift */; };
+		BD2FFDDF20D3F4E400677A5C /* public.h in Headers */ = {isa = PBXBuildFile; fileRef = BD2FFDDE20D3F4D100677A5C /* public.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD2FFDE120D3F54D00677A5C /* DataReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2FFDE020D3F54D00677A5C /* DataReader.swift */; };
+		BD2FFDE520D456D700677A5C /* SelfSignedCertificateiOS.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FFDE420D456D600677A5C /* SelfSignedCertificateiOS.m */; };
+		BD2FFDE620D4585300677A5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F0900F1E37E8C600F03AD3 /* AppDelegate.swift */; };
+		BD2FFDF620D5105700677A5C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2FFDE820D5105500677A5C /* Settings.swift */; };
+		BD2FFDF820D5105700677A5C /* WebSafeBase64.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2FFDEA20D5105500677A5C /* WebSafeBase64.swift */; };
+		BD2FFDF920D5105700677A5C /* KnownFacets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2FFDEB20D5105500677A5C /* KnownFacets.swift */; };
+		BD2FFDFA20D5105700677A5C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2FFDEC20D5105500677A5C /* Utils.swift */; };
+		BD2FFDFB20D5105700677A5C /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2FFDED20D5105600677A5C /* Keychain.swift */; };
+		BD2FFDFC20D5105700677A5C /* U2FAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2FFDEE20D5105600677A5C /* U2FAuthenticator.swift */; };
+		BD2FFDFD20D5105700677A5C /* CLI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2FFDEF20D5105600677A5C /* CLI.swift */; };
+		BD2FFDFE20D5105700677A5C /* KeyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2FFDF020D5105600677A5C /* KeyPair.swift */; };
+		BD2FFDFF20D5105700677A5C /* U2FRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2FFDF120D5105600677A5C /* U2FRegistration.swift */; };
+		BD2FFE0020D5105700677A5C /* UserPresence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2FFDF220D5105700677A5C /* UserPresence.swift */; };
+		BD2FFE0120D5105700677A5C /* SHA256.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2FFDF320D5105700677A5C /* SHA256.swift */; };
+		BD2FFE0220D5105700677A5C /* U2FHID.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2FFDF420D5105700677A5C /* U2FHID.swift */; };
+		BD2FFE0420D6A70D00677A5C /* RegisterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F5071E4A2CF6005680A2 /* RegisterRequest.swift */; };
+		BD2FFE1220D7872100677A5C /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2FFE1120D7872100677A5C /* Channel.swift */; };
+		BD71B81820D25DAC00EFBEB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD71B81620D25DAC00EFBEB7 /* Main.storyboard */; };
+		BD71B81A20D25DAD00EFBEB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD71B81920D25DAD00EFBEB7 /* Assets.xcassets */; };
+		BD71B81D20D25DAD00EFBEB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD71B81B20D25DAD00EFBEB7 /* LaunchScreen.storyboard */; };
+		BD71B84520D3B3E700EFBEB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71B81220D25DAC00EFBEB7 /* AppDelegate.swift */; };
+		BD71B84620D3B3EB00EFBEB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71B81420D25DAC00EFBEB7 /* ViewController.swift */; };
+		BD71B84A20D3BD4500EFBEB7 /* U2FTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71B84920D3BD4500EFBEB7 /* U2FTask.swift */; };
+		DC85068BB665A44FA5CD4C0F /* Pods_iOSApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7911BC6680193C7722A6BB1 /* Pods_iOSApp.framework */; };
+		F4CDAFFC21D1603E02422A0B /* Pods_SoftU2FDriver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBED620BE39E0E48B96CC29E /* Pods_SoftU2FDriver.framework */; };
+		F658A1CB80CEED3386B78240 /* Pods_SoftU2FDriverLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9291C71C1D23DD890EEF8DFB /* Pods_SoftU2FDriverLib.framework */; };
 		F71A9CC51EA810FA00809745 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F71A9CC41EA810FA00809745 /* MainMenu.xib */; };
 		F725EBD61F1FAD9B000A003C /* UserKernelShared.h in Headers */ = {isa = PBXBuildFile; fileRef = F725EBCE1F1FAD9B000A003C /* UserKernelShared.h */; };
 		F725EBD71F1FAD9B000A003C /* SoftU2FDevice.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F725EBCF1F1FAD9B000A003C /* SoftU2FDevice.hpp */; };
@@ -47,7 +106,6 @@
 		F738F5121E4A2CF6005680A2 /* AuthenticationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F5051E4A2CF6005680A2 /* AuthenticationResponse.swift */; };
 		F738F5131E4A2CF6005680A2 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F5061E4A2CF6005680A2 /* ErrorResponse.swift */; };
 		F738F5141E4A2CF6005680A2 /* RegisterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F5071E4A2CF6005680A2 /* RegisterRequest.swift */; };
-		F738F5151E4A2CF6005680A2 /* RegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F5081E4A2CF6005680A2 /* RegisterResponse.swift */; };
 		F738F5161E4A2CF6005680A2 /* VersionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F5091E4A2CF6005680A2 /* VersionRequest.swift */; };
 		F738F5171E4A2CF6005680A2 /* VersionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F50A1E4A2CF6005680A2 /* VersionResponse.swift */; };
 		F738F5201E4A2DDD005680A2 /* CommandHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F51B1E4A2DDD005680A2 /* CommandHeader.swift */; };
@@ -65,7 +123,6 @@
 		F738F5491E4A2F91005680A2 /* AuthenticationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F5051E4A2CF6005680A2 /* AuthenticationResponse.swift */; };
 		F738F54A1E4A2F91005680A2 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F5061E4A2CF6005680A2 /* ErrorResponse.swift */; };
 		F738F54B1E4A2F91005680A2 /* RegisterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F5071E4A2CF6005680A2 /* RegisterRequest.swift */; };
-		F738F54C1E4A2F91005680A2 /* RegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F5081E4A2CF6005680A2 /* RegisterResponse.swift */; };
 		F738F54D1E4A2F91005680A2 /* VersionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F5091E4A2CF6005680A2 /* VersionRequest.swift */; };
 		F738F54E1E4A2F91005680A2 /* VersionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F50A1E4A2CF6005680A2 /* VersionResponse.swift */; };
 		F738F54F1E4A2F9E005680A2 /* DataReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F5251E4A2E57005680A2 /* DataReader.swift */; };
@@ -85,8 +142,6 @@
 		F738F5871E4A3C09005680A2 /* DataReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F5851E4A3C09005680A2 /* DataReaderTests.swift */; };
 		F738F5881E4A3C09005680A2 /* DataWriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F5861E4A3C09005680A2 /* DataWriterTests.swift */; };
 		F738F58A1E4A3C21005680A2 /* TestUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738F5891E4A3C21005680A2 /* TestUtil.swift */; };
-		F7713A5F1F477BA90036A0D5 /* CLI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7713A5D1F477BA90036A0D5 /* CLI.swift */; };
-		F7713A601F477BA90036A0D5 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7713A5E1F477BA90036A0D5 /* Settings.swift */; };
 		F7ABD9BE1E80603D00768FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7ABD9BD1E80603D00768FEC /* Assets.xcassets */; };
 		F7B5DBAD1E4A5CED00E5ABD4 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B5DBAC1E4A5CED00E5ABD4 /* Command.swift */; };
 		F7B5DBAF1E4A815700E5ABD4 /* RawConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B5DBAE1E4A815700E5ABD4 /* RawConvertible.swift */; };
@@ -108,6 +163,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = 51F0900B1E37E8C600F03AD3;
 			remoteInfo = SoftU2FTool;
+		};
+		BD2FFD9E20D3EB0700677A5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51F090041E37E8C500F03AD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD2FFD9820D3EB0700677A5C;
+			remoteInfo = SelfSignedCertificateiOS;
+		};
+		BD2FFDAF20D3EB2E00677A5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51F090041E37E8C500F03AD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD2FFDA920D3EB2E00677A5C;
+			remoteInfo = APDUiOS;
+		};
+		BD2FFDE220D3F79300677A5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51F090041E37E8C500F03AD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD2FFD9820D3EB0700677A5C;
+			remoteInfo = SelfSignedCertificateiOS;
 		};
 		F725EBF31F1FB15E000A003C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -154,6 +230,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		BD71B83320D25E7200EFBEB7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BD2FFDB220D3EB2E00677A5C /* APDUiOS.framework in Embed Frameworks */,
+				BD2FFDA120D3EB0700677A5C /* SelfSignedCertificateiOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F738F4FD1E4A2CCC005680A2 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -169,6 +257,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		027A97B458C4E50AD83E88C7 /* Pods-SelfSignedCertificateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfSignedCertificateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SelfSignedCertificateTests/Pods-SelfSignedCertificateTests.release.xcconfig"; sourceTree = "<group>"; };
+		154F2DBFEE0B3455BF5B237B /* Pods-SoftU2FDriverLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoftU2FDriverLib.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoftU2FDriverLib/Pods-SoftU2FDriverLib.release.xcconfig"; sourceTree = "<group>"; };
+		1F96EE3B5D2E8EAE4D127AAA /* Pods-iOSApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSApp/Pods-iOSApp.debug.xcconfig"; sourceTree = "<group>"; };
+		22BB72BE4D9144BBD0B6683F /* Pods-SoftU2FDriver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoftU2FDriver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoftU2FDriver/Pods-SoftU2FDriver.debug.xcconfig"; sourceTree = "<group>"; };
+		25AC0D6D3FA768D20908BEE1 /* Pods-APDU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APDU.release.xcconfig"; path = "Pods/Target Support Files/Pods-APDU/Pods-APDU.release.xcconfig"; sourceTree = "<group>"; };
+		34F1A52CA805FBF3396CA70E /* Pods-SoftU2F.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoftU2F.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoftU2F/Pods-SoftU2F.debug.xcconfig"; sourceTree = "<group>"; };
+		47481990076229858F513F82 /* Pods_SelfSignedCertificateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SelfSignedCertificateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F761445228665992F28A55 /* Pods_SoftU2F.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoftU2F.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5119862D1E3C1519006A3BBB /* KnownFacets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnownFacets.swift; sourceTree = "<group>"; };
 		51203C381E39234000F661DF /* U2FHIDTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = U2FHIDTests.swift; sourceTree = "<group>"; };
 		51213EC11E3834F8005454E0 /* TestUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUtil.swift; sourceTree = "<group>"; };
@@ -196,6 +292,57 @@
 		51FE30EE1E40F3DB00BAE824 /* U2FRegistrationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = U2FRegistrationTests.swift; sourceTree = "<group>"; };
 		51FE30F01E410B3D00BAE824 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		51FFC71E1E3FEAA4006275E2 /* SoftU2FTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoftU2FTestCase.swift; sourceTree = "<group>"; };
+		564280BE861D649AAC240C05 /* Pods-SoftU2F.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoftU2F.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoftU2F/Pods-SoftU2F.release.xcconfig"; sourceTree = "<group>"; };
+		5F057B81940D58F6B6D70A73 /* Pods-SoftU2FDriverLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoftU2FDriverLib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoftU2FDriverLib/Pods-SoftU2FDriverLib.debug.xcconfig"; sourceTree = "<group>"; };
+		61195547BDE1E2B7FB45A2F4 /* Pods-SoftU2FDriver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoftU2FDriver.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoftU2FDriver/Pods-SoftU2FDriver.release.xcconfig"; sourceTree = "<group>"; };
+		6774B3EB09E83C10D226EEF3 /* Pods_SelfSignedCertificate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SelfSignedCertificate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73D9E1998106454700DAB752 /* Pods_SoftU2FTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoftU2FTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4393A5604278E9B3E868FE /* Pods-SelfSignedCertificate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfSignedCertificate.release.xcconfig"; path = "Pods/Target Support Files/Pods-SelfSignedCertificate/Pods-SelfSignedCertificate.release.xcconfig"; sourceTree = "<group>"; };
+		8A3F439AF84C091B9D108388 /* Pods-APDUTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APDUTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APDUTests/Pods-APDUTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E60E4F160048EAB73473028 /* Pods_APDU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APDU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9291C71C1D23DD890EEF8DFB /* Pods_SoftU2FDriverLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoftU2FDriverLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB823FC40644C4FE60ED35CB /* Pods-SoftU2FTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoftU2FTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoftU2FTests/Pods-SoftU2FTests.release.xcconfig"; sourceTree = "<group>"; };
+		BBED620BE39E0E48B96CC29E /* Pods_SoftU2FDriver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoftU2FDriver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2FFD8E20D3D0C000677A5C /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		BD2FFD9920D3EB0700677A5C /* SelfSignedCertificateiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SelfSignedCertificateiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2FFD9B20D3EB0700677A5C /* SelfSignedCertificateiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelfSignedCertificateiOS.h; sourceTree = "<group>"; };
+		BD2FFD9C20D3EB0700677A5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD2FFDAA20D3EB2E00677A5C /* APDUiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APDUiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2FFDAC20D3EB2E00677A5C /* APDUiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APDUiOS.h; sourceTree = "<group>"; };
+		BD2FFDAD20D3EB2E00677A5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD2FFDD620D3F20E00677A5C /* RegisterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterResponse.swift; sourceTree = "<group>"; };
+		BD2FFDDE20D3F4D100677A5C /* public.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = public.h; sourceTree = "<group>"; };
+		BD2FFDE020D3F54D00677A5C /* DataReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataReader.swift; sourceTree = "<group>"; };
+		BD2FFDE420D456D600677A5C /* SelfSignedCertificateiOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelfSignedCertificateiOS.m; sourceTree = "<group>"; };
+		BD2FFDE820D5105500677A5C /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		BD2FFDEA20D5105500677A5C /* WebSafeBase64.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSafeBase64.swift; sourceTree = "<group>"; };
+		BD2FFDEB20D5105500677A5C /* KnownFacets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnownFacets.swift; sourceTree = "<group>"; };
+		BD2FFDEC20D5105500677A5C /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		BD2FFDED20D5105600677A5C /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		BD2FFDEE20D5105600677A5C /* U2FAuthenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = U2FAuthenticator.swift; sourceTree = "<group>"; };
+		BD2FFDEF20D5105600677A5C /* CLI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLI.swift; sourceTree = "<group>"; };
+		BD2FFDF020D5105600677A5C /* KeyPair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPair.swift; sourceTree = "<group>"; };
+		BD2FFDF120D5105600677A5C /* U2FRegistration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = U2FRegistration.swift; sourceTree = "<group>"; };
+		BD2FFDF220D5105700677A5C /* UserPresence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPresence.swift; sourceTree = "<group>"; };
+		BD2FFDF320D5105700677A5C /* SHA256.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHA256.swift; sourceTree = "<group>"; };
+		BD2FFDF420D5105700677A5C /* U2FHID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = U2FHID.swift; sourceTree = "<group>"; };
+		BD2FFE0B20D779E500677A5C /* iOSApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		BD2FFE1120D7872100677A5C /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		BD71B81020D25DAB00EFBEB7 /* iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD71B81220D25DAC00EFBEB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD71B81420D25DAC00EFBEB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD71B81720D25DAC00EFBEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD71B81920D25DAD00EFBEB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD71B81C20D25DAD00EFBEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD71B81E20D25DAD00EFBEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD71B84920D3BD4500EFBEB7 /* U2FTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U2FTask.swift; sourceTree = "<group>"; };
+		BF804E42695C1C5343B00E30 /* Pods-SoftU2FTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoftU2FTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoftU2FTests/Pods-SoftU2FTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD4F0174244AA07CC8C6CD8F /* Pods-iOSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSApp/Pods-iOSApp.release.xcconfig"; sourceTree = "<group>"; };
+		D25A48C5640D0DB638DC4527 /* Pods-APDUTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APDUTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-APDUTests/Pods-APDUTests.release.xcconfig"; sourceTree = "<group>"; };
+		D7911BC6680193C7722A6BB1 /* Pods_iOSApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCF41055B5F6676C65FB46C /* Pods-APDU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APDU.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APDU/Pods-APDU.debug.xcconfig"; sourceTree = "<group>"; };
+		E170BB48AD855A8ABFD38531 /* Pods_APDUTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APDUTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E423AD3FD097EA6A6ACF54D9 /* Pods-SelfSignedCertificateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfSignedCertificateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SelfSignedCertificateTests/Pods-SelfSignedCertificateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F71A9CC41EA810FA00809745 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		F725EBC41F1FAD3C000A003C /* softu2f.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = softu2f.kext; sourceTree = BUILT_PRODUCTS_DIR; };
 		F725EBCE1F1FAD9B000A003C /* UserKernelShared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserKernelShared.h; sourceTree = "<group>"; };
@@ -253,6 +400,7 @@
 		F7B5DBBE1E4A85EB00E5ABD4 /* RegisterRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterRequestTests.swift; sourceTree = "<group>"; };
 		F7B5DBBF1E4A85EB00E5ABD4 /* VersionRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionRequestTests.swift; sourceTree = "<group>"; };
 		F7B5DBC81E4A8CF000E5ABD4 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		FBFA41BAC3C9F0B74BBD4481 /* Pods-SelfSignedCertificate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfSignedCertificate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SelfSignedCertificate/Pods-SelfSignedCertificate.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +411,7 @@
 				F725EBF21F1FB155000A003C /* libsoftu2f.a in Frameworks */,
 				F738F4F81E4A2CCC005680A2 /* APDU.framework in Frameworks */,
 				F738F5611E4A31DE005680A2 /* SelfSignedCertificate.framework in Frameworks */,
+				5CE91DAF1D791AA3881EE28C /* Pods_SoftU2F.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +420,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				5131C1B21E3B9EA1006A820C /* libu2f-host.a in Frameworks */,
+				8981DD704AE44EDF071C73EA /* Pods_SoftU2FTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2FFD9520D3EB0700677A5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2FFDA620D3EB2E00677A5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2FFDD220D3F19100677A5C /* SelfSignedCertificateiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD71B80D20D25DAB00EFBEB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2FFDA020D3EB0700677A5C /* SelfSignedCertificateiOS.framework in Frameworks */,
+				DC85068BB665A44FA5CD4C0F /* Pods_iOSApp.framework in Frameworks */,
+				BD2FFDB120D3EB2E00677A5C /* APDUiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +453,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4CDAFFC21D1603E02422A0B /* Pods_SoftU2FDriver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +461,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F658A1CB80CEED3386B78240 /* Pods_SoftU2FDriverLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +470,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F738F5831E4A3B26005680A2 /* SelfSignedCertificate.framework in Frameworks */,
+				382DF1AF30EFDFD4B0520D6D /* Pods_APDU.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +479,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F738F5341E4A2E8A005680A2 /* APDU.framework in Frameworks */,
+				B10D3CFB72EA7C0448A79A49 /* Pods_APDUTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +487,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				605EEAEFE03C4088147D231E /* Pods_SelfSignedCertificate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,16 +496,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				F738F5761E4A3328005680A2 /* SelfSignedCertificate.framework in Frameworks */,
+				9E3292E27CD0263989D497DF /* Pods_SelfSignedCertificateTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E9D80061F9AA50C93DE6969 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFCF41055B5F6676C65FB46C /* Pods-APDU.debug.xcconfig */,
+				25AC0D6D3FA768D20908BEE1 /* Pods-APDU.release.xcconfig */,
+				8A3F439AF84C091B9D108388 /* Pods-APDUTests.debug.xcconfig */,
+				D25A48C5640D0DB638DC4527 /* Pods-APDUTests.release.xcconfig */,
+				FBFA41BAC3C9F0B74BBD4481 /* Pods-SelfSignedCertificate.debug.xcconfig */,
+				7D4393A5604278E9B3E868FE /* Pods-SelfSignedCertificate.release.xcconfig */,
+				E423AD3FD097EA6A6ACF54D9 /* Pods-SelfSignedCertificateTests.debug.xcconfig */,
+				027A97B458C4E50AD83E88C7 /* Pods-SelfSignedCertificateTests.release.xcconfig */,
+				34F1A52CA805FBF3396CA70E /* Pods-SoftU2F.debug.xcconfig */,
+				564280BE861D649AAC240C05 /* Pods-SoftU2F.release.xcconfig */,
+				22BB72BE4D9144BBD0B6683F /* Pods-SoftU2FDriver.debug.xcconfig */,
+				61195547BDE1E2B7FB45A2F4 /* Pods-SoftU2FDriver.release.xcconfig */,
+				5F057B81940D58F6B6D70A73 /* Pods-SoftU2FDriverLib.debug.xcconfig */,
+				154F2DBFEE0B3455BF5B237B /* Pods-SoftU2FDriverLib.release.xcconfig */,
+				BF804E42695C1C5343B00E30 /* Pods-SoftU2FTests.debug.xcconfig */,
+				BB823FC40644C4FE60ED35CB /* Pods-SoftU2FTests.release.xcconfig */,
+				1F96EE3B5D2E8EAE4D127AAA /* Pods-iOSApp.debug.xcconfig */,
+				CD4F0174244AA07CC8C6CD8F /* Pods-iOSApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		518537C61E380FAE00600911 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				5131C1B11E3B9EA1006A820C /* libu2f-host.a */,
+				8E60E4F160048EAB73473028 /* Pods_APDU.framework */,
+				E170BB48AD855A8ABFD38531 /* Pods_APDUTests.framework */,
+				6774B3EB09E83C10D226EEF3 /* Pods_SelfSignedCertificate.framework */,
+				47481990076229858F513F82 /* Pods_SelfSignedCertificateTests.framework */,
+				48F761445228665992F28A55 /* Pods_SoftU2F.framework */,
+				BBED620BE39E0E48B96CC29E /* Pods_SoftU2FDriver.framework */,
+				9291C71C1D23DD890EEF8DFB /* Pods_SoftU2FDriverLib.framework */,
+				73D9E1998106454700DAB752 /* Pods_SoftU2FTests.framework */,
+				D7911BC6680193C7722A6BB1 /* Pods_iOSApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -341,8 +556,12 @@
 				F738F5301E4A2E8A005680A2 /* APDUTests */,
 				F738F55B1E4A31DE005680A2 /* SelfSignedCertificate */,
 				F738F5721E4A3328005680A2 /* SelfSignedCertificateTests */,
+				BD71B81120D25DAC00EFBEB7 /* iOSApp */,
+				BD2FFD9A20D3EB0700677A5C /* SelfSignedCertificateiOS */,
+				BD2FFDAB20D3EB2E00677A5C /* APDUiOS */,
 				51F0900D1E37E8C600F03AD3 /* Products */,
 				518537C61E380FAE00600911 /* Frameworks */,
+				4E9D80061F9AA50C93DE6969 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -357,6 +576,9 @@
 				F738F5711E4A3328005680A2 /* SelfSignedCertificateTests.xctest */,
 				F725EBC41F1FAD3C000A003C /* softu2f.kext */,
 				F725EBE21F1FB09D000A003C /* libsoftu2f.a */,
+				BD71B81020D25DAB00EFBEB7 /* iOSApp.app */,
+				BD2FFD9920D3EB0700677A5C /* SelfSignedCertificateiOS.framework */,
+				BD2FFDAA20D3EB2E00677A5C /* APDUiOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -364,22 +586,22 @@
 		51F0900E1E37E8C600F03AD3 /* SoftU2F */ = {
 			isa = PBXGroup;
 			children = (
+				BD2FFDEF20D5105600677A5C /* CLI.swift */,
+				BD2FFDED20D5105600677A5C /* Keychain.swift */,
+				BD2FFDF020D5105600677A5C /* KeyPair.swift */,
+				BD2FFDEB20D5105500677A5C /* KnownFacets.swift */,
+				BD2FFDE820D5105500677A5C /* Settings.swift */,
+				BD2FFDF320D5105700677A5C /* SHA256.swift */,
+				BD2FFDEE20D5105600677A5C /* U2FAuthenticator.swift */,
+				BD2FFDF420D5105700677A5C /* U2FHID.swift */,
+				BD2FFDF120D5105600677A5C /* U2FRegistration.swift */,
+				BD2FFDF220D5105700677A5C /* UserPresence.swift */,
+				BD2FFDEC20D5105500677A5C /* Utils.swift */,
+				BD2FFDEA20D5105500677A5C /* WebSafeBase64.swift */,
+				51F0900F1E37E8C600F03AD3 /* AppDelegate.swift */,
 				F7ABD9BD1E80603D00768FEC /* Assets.xcassets */,
 				5131C19D1E3A77EE006A820C /* SoftU2FTool.entitlements */,
 				F71A9CC41EA810FA00809745 /* MainMenu.xib */,
-				51F0900F1E37E8C600F03AD3 /* AppDelegate.swift */,
-				51E2145F1E3823E7005B2864 /* SHA256.swift */,
-				51E214611E382521005B2864 /* WebSafeBase64.swift */,
-				5190B6111E3BFE3D00E6FE06 /* UserPresence.swift */,
-				5119862D1E3C1519006A3BBB /* KnownFacets.swift */,
-				514F3D811E43C833008FA513 /* Keychain.swift */,
-				514F3D861E43E828008FA513 /* KeyPair.swift */,
-				51FE30F01E410B3D00BAE824 /* Utils.swift */,
-				51213EC51E3916EB005454E0 /* U2FHID.swift */,
-				51B289E41E39903F00AD90CC /* U2FAuthenticator.swift */,
-				51FE30EC1E403DA000BAE824 /* U2FRegistration.swift */,
-				F7713A5D1F477BA90036A0D5 /* CLI.swift */,
-				F7713A5E1F477BA90036A0D5 /* Settings.swift */,
 				518537BF1E380E4600600911 /* SoftU2F-Bridging-Header.h */,
 				51F090181E37E8C600F03AD3 /* Info.plist */,
 			);
@@ -403,6 +625,57 @@
 			);
 			name = SoftU2FTests;
 			path = SoftU2FToolTests;
+			sourceTree = "<group>";
+		};
+		BD2FFD9A20D3EB0700677A5C /* SelfSignedCertificateiOS */ = {
+			isa = PBXGroup;
+			children = (
+				BD2FFDE420D456D600677A5C /* SelfSignedCertificateiOS.m */,
+				BD2FFD9B20D3EB0700677A5C /* SelfSignedCertificateiOS.h */,
+				BD2FFD9C20D3EB0700677A5C /* Info.plist */,
+				BD2FFDDE20D3F4D100677A5C /* public.h */,
+			);
+			path = SelfSignedCertificateiOS;
+			sourceTree = "<group>";
+		};
+		BD2FFDAB20D3EB2E00677A5C /* APDUiOS */ = {
+			isa = PBXGroup;
+			children = (
+				BD2FFDD620D3F20E00677A5C /* RegisterResponse.swift */,
+				BD2FFDAC20D3EB2E00677A5C /* APDUiOS.h */,
+				BD2FFDAD20D3EB2E00677A5C /* Info.plist */,
+				BD2FFDE020D3F54D00677A5C /* DataReader.swift */,
+			);
+			path = APDUiOS;
+			sourceTree = "<group>";
+		};
+		BD71B81120D25DAC00EFBEB7 /* iOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				BD71B81220D25DAC00EFBEB7 /* AppDelegate.swift */,
+				51E2145F1E3823E7005B2864 /* SHA256.swift */,
+				51E214611E382521005B2864 /* WebSafeBase64.swift */,
+				5190B6111E3BFE3D00E6FE06 /* UserPresence.swift */,
+				5119862D1E3C1519006A3BBB /* KnownFacets.swift */,
+				514F3D811E43C833008FA513 /* Keychain.swift */,
+				514F3D861E43E828008FA513 /* KeyPair.swift */,
+				51FE30F01E410B3D00BAE824 /* Utils.swift */,
+				51213EC51E3916EB005454E0 /* U2FHID.swift */,
+				51B289E41E39903F00AD90CC /* U2FAuthenticator.swift */,
+				51FE30EC1E403DA000BAE824 /* U2FRegistration.swift */,
+				F7713A5D1F477BA90036A0D5 /* CLI.swift */,
+				F7713A5E1F477BA90036A0D5 /* Settings.swift */,
+				BD71B81420D25DAC00EFBEB7 /* ViewController.swift */,
+				BD71B84920D3BD4500EFBEB7 /* U2FTask.swift */,
+				BD71B81620D25DAC00EFBEB7 /* Main.storyboard */,
+				BD71B81920D25DAD00EFBEB7 /* Assets.xcassets */,
+				BD71B81B20D25DAD00EFBEB7 /* LaunchScreen.storyboard */,
+				BD71B81E20D25DAD00EFBEB7 /* Info.plist */,
+				BD2FFD8E20D3D0C000677A5C /* Crypto.swift */,
+				BD2FFE0B20D779E500677A5C /* iOSApp-Bridging-Header.h */,
+				BD2FFE1120D7872100677A5C /* Channel.swift */,
+			);
+			path = iOSApp;
 			sourceTree = "<group>";
 		};
 		F725EBC51F1FAD3C000A003C /* SoftU2FDriver */ = {
@@ -444,10 +717,10 @@
 				F738F5041E4A2CF6005680A2 /* AuthenticationRequest.swift */,
 				F738F5051E4A2CF6005680A2 /* AuthenticationResponse.swift */,
 				F738F5071E4A2CF6005680A2 /* RegisterRequest.swift */,
-				F738F5081E4A2CF6005680A2 /* RegisterResponse.swift */,
 				F738F5091E4A2CF6005680A2 /* VersionRequest.swift */,
 				F738F50A1E4A2CF6005680A2 /* VersionResponse.swift */,
 				F738F5061E4A2CF6005680A2 /* ErrorResponse.swift */,
+				F738F5081E4A2CF6005680A2 /* RegisterResponse.swift */,
 				F738F4F31E4A2CCC005680A2 /* APDU.h */,
 				F738F4F41E4A2CCC005680A2 /* Info.plist */,
 			);
@@ -513,6 +786,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		BD2FFD9620D3EB0700677A5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2FFDDF20D3F4E400677A5C /* public.h in Headers */,
+				BD2FFD9D20D3EB0700677A5C /* SelfSignedCertificateiOS.h in Headers */,
+				BD2FFDB720D3EB4B00677A5C /* private.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2FFDA720D3EB2E00677A5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2FFDAE20D3EB2E00677A5C /* APDUiOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F725EBC11F1FAD3C000A003C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -558,6 +849,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51F090261E37E8C600F03AD3 /* Build configuration list for PBXNativeTarget "SoftU2F" */;
 			buildPhases = (
+				572B10C93F4D720D7B7085D8 /* [CP] Check Pods Manifest.lock */,
 				51F090081E37E8C600F03AD3 /* Sources */,
 				51F090091E37E8C600F03AD3 /* Frameworks */,
 				51F0900A1E37E8C600F03AD3 /* Resources */,
@@ -579,6 +871,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51F090291E37E8C600F03AD3 /* Build configuration list for PBXNativeTarget "SoftU2FTests" */;
 			buildPhases = (
+				A6826E3381560DFD492EC1E2 /* [CP] Check Pods Manifest.lock */,
 				51F090191E37E8C600F03AD3 /* Sources */,
 				51F0901A1E37E8C600F03AD3 /* Frameworks */,
 				51F0901B1E37E8C600F03AD3 /* Resources */,
@@ -593,10 +886,70 @@
 			productReference = 51F0901D1E37E8C600F03AD3 /* SoftU2FTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		BD2FFD9820D3EB0700677A5C /* SelfSignedCertificateiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2FFDA220D3EB0700677A5C /* Build configuration list for PBXNativeTarget "SelfSignedCertificateiOS" */;
+			buildPhases = (
+				BD2FFD9420D3EB0700677A5C /* Sources */,
+				BD2FFD9520D3EB0700677A5C /* Frameworks */,
+				BD2FFD9620D3EB0700677A5C /* Headers */,
+				BD2FFD9720D3EB0700677A5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelfSignedCertificateiOS;
+			productName = SelfSignedCertificateiOS;
+			productReference = BD2FFD9920D3EB0700677A5C /* SelfSignedCertificateiOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD2FFDA920D3EB2E00677A5C /* APDUiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2FFDB320D3EB2E00677A5C /* Build configuration list for PBXNativeTarget "APDUiOS" */;
+			buildPhases = (
+				BD2FFDA520D3EB2E00677A5C /* Sources */,
+				BD2FFDA620D3EB2E00677A5C /* Frameworks */,
+				BD2FFDA720D3EB2E00677A5C /* Headers */,
+				BD2FFDA820D3EB2E00677A5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD2FFDE320D3F79300677A5C /* PBXTargetDependency */,
+			);
+			name = APDUiOS;
+			productName = APDUiOS;
+			productReference = BD2FFDAA20D3EB2E00677A5C /* APDUiOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD71B80F20D25DAB00EFBEB7 /* iOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD71B82120D25DAD00EFBEB7 /* Build configuration list for PBXNativeTarget "iOSApp" */;
+			buildPhases = (
+				49734302B2284C2EF7EBC4C4 /* [CP] Check Pods Manifest.lock */,
+				BD71B80C20D25DAB00EFBEB7 /* Sources */,
+				BD71B80D20D25DAB00EFBEB7 /* Frameworks */,
+				BD71B80E20D25DAB00EFBEB7 /* Resources */,
+				BD71B83320D25E7200EFBEB7 /* Embed Frameworks */,
+				9EE61B231C5D3888034BC3F6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD2FFD9F20D3EB0700677A5C /* PBXTargetDependency */,
+				BD2FFDB020D3EB2E00677A5C /* PBXTargetDependency */,
+			);
+			name = iOSApp;
+			productName = iOSApp;
+			productReference = BD71B81020D25DAB00EFBEB7 /* iOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 		F725EBC31F1FAD3C000A003C /* SoftU2FDriver */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F725EBCB1F1FAD3C000A003C /* Build configuration list for PBXNativeTarget "SoftU2FDriver" */;
 			buildPhases = (
+				532D9F653CCEF65D55BBB132 /* [CP] Check Pods Manifest.lock */,
 				F725EBBF1F1FAD3C000A003C /* Sources */,
 				F725EBC01F1FAD3C000A003C /* Frameworks */,
 				F725EBC11F1FAD3C000A003C /* Headers */,
@@ -615,6 +968,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F725EBE51F1FB09D000A003C /* Build configuration list for PBXNativeTarget "SoftU2FDriverLib" */;
 			buildPhases = (
+				CD83457B076B9F3C17511572 /* [CP] Check Pods Manifest.lock */,
 				F725EBDE1F1FB09D000A003C /* Sources */,
 				F725EBDF1F1FB09D000A003C /* Frameworks */,
 				F725EBE01F1FB09D000A003C /* Headers */,
@@ -632,6 +986,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F738F4FA1E4A2CCC005680A2 /* Build configuration list for PBXNativeTarget "APDU" */;
 			buildPhases = (
+				E5A82930A2E382A0747175FC /* [CP] Check Pods Manifest.lock */,
 				F738F4EC1E4A2CCB005680A2 /* Sources */,
 				F738F4ED1E4A2CCB005680A2 /* Frameworks */,
 				F738F4EE1E4A2CCB005680A2 /* Headers */,
@@ -651,6 +1006,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F738F5371E4A2E8A005680A2 /* Build configuration list for PBXNativeTarget "APDUTests" */;
 			buildPhases = (
+				96B466AD5F3402FF359B3CCD /* [CP] Check Pods Manifest.lock */,
 				F738F52B1E4A2E8A005680A2 /* Sources */,
 				F738F52C1E4A2E8A005680A2 /* Frameworks */,
 				F738F52D1E4A2E8A005680A2 /* Resources */,
@@ -669,6 +1025,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F738F5631E4A31DE005680A2 /* Build configuration list for PBXNativeTarget "SelfSignedCertificate" */;
 			buildPhases = (
+				218994E2E060EEDF86A416BB /* [CP] Check Pods Manifest.lock */,
 				F738F5551E4A31DE005680A2 /* Sources */,
 				F738F5561E4A31DE005680A2 /* Frameworks */,
 				F738F5571E4A31DE005680A2 /* Headers */,
@@ -687,6 +1044,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F738F5791E4A3328005680A2 /* Build configuration list for PBXNativeTarget "SelfSignedCertificateTests" */;
 			buildPhases = (
+				F25902725F23BFA1FE370331 /* [CP] Check Pods Manifest.lock */,
 				F738F56D1E4A3328005680A2 /* Sources */,
 				F738F56E1E4A3328005680A2 /* Frameworks */,
 				F738F56F1E4A3328005680A2 /* Resources */,
@@ -707,7 +1065,7 @@
 		51F090041E37E8C500F03AD3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0800;
+				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = GitHub;
 				TargetAttributes = {
@@ -729,6 +1087,22 @@
 						ProvisioningStyle = Manual;
 						TestTargetID = 51F0900B1E37E8C600F03AD3;
 					};
+					BD2FFD9820D3EB0700677A5C = {
+						CreatedOnToolsVersion = 9.3;
+						DevelopmentTeam = 3JJ95VX9HU;
+						ProvisioningStyle = Automatic;
+					};
+					BD2FFDA920D3EB2E00677A5C = {
+						CreatedOnToolsVersion = 9.3;
+						DevelopmentTeam = 3JJ95VX9HU;
+						ProvisioningStyle = Automatic;
+					};
+					BD71B80F20D25DAB00EFBEB7 = {
+						CreatedOnToolsVersion = 9.3;
+						DevelopmentTeam = 3JJ95VX9HU;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Automatic;
+					};
 					F725EBC31F1FAD3C000A003C = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = VEKTX9H2N7;
@@ -741,7 +1115,7 @@
 					};
 					F738F4F01E4A2CCB005680A2 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = VEKTX9H2N7;
+						DevelopmentTeam = 3JJ95VX9HU;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
@@ -752,7 +1126,7 @@
 					};
 					F738F5591E4A31DE005680A2 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = VEKTX9H2N7;
+						DevelopmentTeam = 3JJ95VX9HU;
 						ProvisioningStyle = Automatic;
 					};
 					F738F5701E4A3328005680A2 = {
@@ -777,12 +1151,15 @@
 			targets = (
 				51F0900B1E37E8C600F03AD3 /* SoftU2F */,
 				51F0901C1E37E8C600F03AD3 /* SoftU2FTests */,
-				F738F4F01E4A2CCB005680A2 /* APDU */,
 				F738F52E1E4A2E8A005680A2 /* APDUTests */,
-				F738F5591E4A31DE005680A2 /* SelfSignedCertificate */,
 				F738F5701E4A3328005680A2 /* SelfSignedCertificateTests */,
 				F725EBC31F1FAD3C000A003C /* SoftU2FDriver */,
 				F725EBE11F1FB09D000A003C /* SoftU2FDriverLib */,
+				BD71B80F20D25DAB00EFBEB7 /* iOSApp */,
+				F738F5591E4A31DE005680A2 /* SelfSignedCertificate */,
+				BD2FFD9820D3EB0700677A5C /* SelfSignedCertificateiOS */,
+				F738F4F01E4A2CCB005680A2 /* APDU */,
+				BD2FFDA920D3EB2E00677A5C /* APDUiOS */,
 			);
 		};
 /* End PBXProject section */
@@ -801,6 +1178,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2FFD9720D3EB0700677A5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2FFDA820D3EB2E00677A5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD71B80E20D25DAB00EFBEB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD71B81D20D25DAD00EFBEB7 /* LaunchScreen.storyboard in Resources */,
+				BD71B81A20D25DAD00EFBEB7 /* Assets.xcassets in Resources */,
+				BD71B81820D25DAC00EFBEB7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -842,24 +1243,209 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		218994E2E060EEDF86A416BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SelfSignedCertificate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49734302B2284C2EF7EBC4C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		532D9F653CCEF65D55BBB132 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoftU2FDriver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		572B10C93F4D720D7B7085D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoftU2F-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96B466AD5F3402FF359B3CCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APDUTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EE61B231C5D3888034BC3F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOSApp/Pods-iOSApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSApp/Pods-iOSApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6826E3381560DFD492EC1E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoftU2FTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD83457B076B9F3C17511572 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoftU2FDriverLib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5A82930A2E382A0747175FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APDU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F25902725F23BFA1FE370331 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SelfSignedCertificateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		51F090081E37E8C600F03AD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5190B6121E3BFE3D00E6FE06 /* UserPresence.swift in Sources */,
-				51FE30F11E410B3D00BAE824 /* Utils.swift in Sources */,
-				F7713A601F477BA90036A0D5 /* Settings.swift in Sources */,
-				5119862E1E3C1519006A3BBB /* KnownFacets.swift in Sources */,
-				51F090101E37E8C600F03AD3 /* AppDelegate.swift in Sources */,
-				51213EC61E3916EB005454E0 /* U2FHID.swift in Sources */,
-				51E214601E3823E7005B2864 /* SHA256.swift in Sources */,
-				51B289E51E39903F00AD90CC /* U2FAuthenticator.swift in Sources */,
-				514F3D821E43C833008FA513 /* Keychain.swift in Sources */,
-				F7713A5F1F477BA90036A0D5 /* CLI.swift in Sources */,
-				51FE30ED1E403DA000BAE824 /* U2FRegistration.swift in Sources */,
-				51E214621E382521005B2864 /* WebSafeBase64.swift in Sources */,
-				514F3D871E43E828008FA513 /* KeyPair.swift in Sources */,
+				BD2FFDFF20D5105700677A5C /* U2FRegistration.swift in Sources */,
+				BD2FFDF620D5105700677A5C /* Settings.swift in Sources */,
+				BD2FFDF820D5105700677A5C /* WebSafeBase64.swift in Sources */,
+				BD2FFDFE20D5105700677A5C /* KeyPair.swift in Sources */,
+				BD2FFDFD20D5105700677A5C /* CLI.swift in Sources */,
+				BD2FFE0220D5105700677A5C /* U2FHID.swift in Sources */,
+				BD2FFDFA20D5105700677A5C /* Utils.swift in Sources */,
+				BD2FFE0120D5105700677A5C /* SHA256.swift in Sources */,
+				BD2FFE0020D5105700677A5C /* UserPresence.swift in Sources */,
+				BD2FFDFB20D5105700677A5C /* Keychain.swift in Sources */,
+				BD2FFDFC20D5105700677A5C /* U2FAuthenticator.swift in Sources */,
+				BD2FFDE620D4585300677A5C /* AppDelegate.swift in Sources */,
+				BD2FFDF920D5105700677A5C /* KnownFacets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -875,6 +1461,62 @@
 				51FFC71F1E3FEAA4006275E2 /* SoftU2FTestCase.swift in Sources */,
 				51213EC21E3834F8005454E0 /* TestUtil.swift in Sources */,
 				51FE30EF1E40F3DB00BAE824 /* U2FRegistrationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2FFD9420D3EB0700677A5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2FFDE520D456D700677A5C /* SelfSignedCertificateiOS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2FFDA520D3EB2E00677A5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2FFDBB20D3ED6E00677A5C /* RawConvertible.swift in Sources */,
+				BD2FFDDD20D3F38900677A5C /* DataWriter.swift in Sources */,
+				BD2FFDC220D3ED6E00677A5C /* AuthenticationResponse.swift in Sources */,
+				BD2FFDBF20D3ED6E00677A5C /* CommandTrailer.swift in Sources */,
+				BD2FFDBA20D3ED6E00677A5C /* Constants.swift in Sources */,
+				BD2FFDBE20D3ED6E00677A5C /* CommandHeader.swift in Sources */,
+				BD2FFDBC20D3ED6E00677A5C /* MessagePart.swift in Sources */,
+				BD2FFDE120D3F54D00677A5C /* DataReader.swift in Sources */,
+				BD2FFDC620D3ED6E00677A5C /* VersionResponse.swift in Sources */,
+				BD2FFDBD20D3ED6E00677A5C /* Command.swift in Sources */,
+				BD2FFDC020D3ED6E00677A5C /* Response.swift in Sources */,
+				BD2FFDD820D3F29E00677A5C /* RegisterResponse.swift in Sources */,
+				BD2FFE0420D6A70D00677A5C /* RegisterRequest.swift in Sources */,
+				BD2FFDC520D3ED6E00677A5C /* VersionRequest.swift in Sources */,
+				BD2FFDC120D3ED6E00677A5C /* AuthenticationRequest.swift in Sources */,
+				BD2FFDDB20D3F37600677A5C /* Endian.swift in Sources */,
+				BD2FFDC720D3ED6E00677A5C /* ErrorResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD71B80C20D25DAB00EFBEB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2FFD8F20D3D0C000677A5C /* Crypto.swift in Sources */,
+				BD2FFDC820D3EE8F00677A5C /* UserPresence.swift in Sources */,
+				BD71B84A20D3BD4500EFBEB7 /* U2FTask.swift in Sources */,
+				BD2FFDC920D3EE8F00677A5C /* WebSafeBase64.swift in Sources */,
+				BD2FFE1220D7872100677A5C /* Channel.swift in Sources */,
+				BD2FFDCB20D3EE8F00677A5C /* CLI.swift in Sources */,
+				BD71B84520D3B3E700EFBEB7 /* AppDelegate.swift in Sources */,
+				BD2FFDCD20D3EE8F00677A5C /* U2FHID.swift in Sources */,
+				BD2FFD9120D3D76000677A5C /* KeyPair.swift in Sources */,
+				BD2FFDD120D3EE8F00677A5C /* Utils.swift in Sources */,
+				BD2FFDCA20D3EE8F00677A5C /* SHA256.swift in Sources */,
+				BD2FFDD020D3EE8F00677A5C /* Settings.swift in Sources */,
+				BD2FFDCE20D3EE8F00677A5C /* KnownFacets.swift in Sources */,
+				BD2FFD9020D3D74200677A5C /* U2FRegistration.swift in Sources */,
+				BD2FFDCC20D3EE8F00677A5C /* U2FAuthenticator.swift in Sources */,
+				BD71B84620D3B3EB00EFBEB7 /* ViewController.swift in Sources */,
+				BD2FFD9220D3D76D00677A5C /* Keychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -905,7 +1547,6 @@
 				F7B5DBAD1E4A5CED00E5ABD4 /* Command.swift in Sources */,
 				F7B5DBB31E4A82EB00E5ABD4 /* MessagePart.swift in Sources */,
 				F7B5DBC91E4A8CF000E5ABD4 /* Response.swift in Sources */,
-				F738F5151E4A2CF6005680A2 /* RegisterResponse.swift in Sources */,
 				F738F5201E4A2DDD005680A2 /* CommandHeader.swift in Sources */,
 				F738F5141E4A2CF6005680A2 /* RegisterRequest.swift in Sources */,
 				F7B5DBAF1E4A815700E5ABD4 /* RawConvertible.swift in Sources */,
@@ -917,6 +1558,7 @@
 				F738F5131E4A2CF6005680A2 /* ErrorResponse.swift in Sources */,
 				F738F5121E4A2CF6005680A2 /* AuthenticationResponse.swift in Sources */,
 				F738F5161E4A2CF6005680A2 /* VersionRequest.swift in Sources */,
+				BD2FFDDA20D3F2EB00677A5C /* RegisterResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -927,7 +1569,6 @@
 				F738F58A1E4A3C21005680A2 /* TestUtil.swift in Sources */,
 				F738F53E1E4A2ED6005680A2 /* CommandHeaderTests.swift in Sources */,
 				F738F54E1E4A2F91005680A2 /* VersionResponse.swift in Sources */,
-				F738F54C1E4A2F91005680A2 /* RegisterResponse.swift in Sources */,
 				F738F54B1E4A2F91005680A2 /* RegisterRequest.swift in Sources */,
 				F738F5871E4A3C09005680A2 /* DataReaderTests.swift in Sources */,
 				F7B5DBB01E4A827000E5ABD4 /* RawConvertible.swift in Sources */,
@@ -977,6 +1618,21 @@
 			target = 51F0900B1E37E8C600F03AD3 /* SoftU2F */;
 			targetProxy = 51F0901E1E37E8C600F03AD3 /* PBXContainerItemProxy */;
 		};
+		BD2FFD9F20D3EB0700677A5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD2FFD9820D3EB0700677A5C /* SelfSignedCertificateiOS */;
+			targetProxy = BD2FFD9E20D3EB0700677A5C /* PBXContainerItemProxy */;
+		};
+		BD2FFDB020D3EB2E00677A5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD2FFDA920D3EB2E00677A5C /* APDUiOS */;
+			targetProxy = BD2FFDAF20D3EB2E00677A5C /* PBXContainerItemProxy */;
+		};
+		BD2FFDE320D3F79300677A5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD2FFD9820D3EB0700677A5C /* SelfSignedCertificateiOS */;
+			targetProxy = BD2FFDE220D3F79300677A5C /* PBXContainerItemProxy */;
+		};
 		F725EBF41F1FB15E000A003C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F725EBE11F1FB09D000A003C /* SoftU2FDriverLib */;
@@ -1008,6 +1664,25 @@
 			targetProxy = F738F5811E4A3B20005680A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD71B81620D25DAC00EFBEB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD71B81720D25DAC00EFBEB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD71B81B20D25DAD00EFBEB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD71B81C20D25DAD00EFBEB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		51F090241E37E8C600F03AD3 /* Debug */ = {
@@ -1050,6 +1725,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1093,6 +1769,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
@@ -1102,6 +1779,7 @@
 		};
 		51F090271E37E8C600F03AD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34F1A52CA805FBF3396CA70E /* Pods-SoftU2F.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1126,6 +1804,7 @@
 		};
 		51F090281E37E8C600F03AD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 564280BE861D649AAC240C05 /* Pods-SoftU2F.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1149,6 +1828,7 @@
 		};
 		51F0902A1E37E8C600F03AD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF804E42695C1C5343B00E30 /* Pods-SoftU2FTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1172,6 +1852,7 @@
 		};
 		51F0902B1E37E8C600F03AD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB823FC40644C4FE60ED35CB /* Pods-SoftU2FTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1192,8 +1873,243 @@
 			};
 			name = Release;
 		};
+		BD2FFDA320D3EB0700677A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3JJ95VX9HU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				HEADER_SEARCH_PATHS = ./third_party/openssl/include;
+				INFOPLIST_FILE = SelfSignedCertificateiOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = ./third_party/openssl/lib/libcrypto.a;
+				PRODUCT_BUNDLE_IDENTIFIER = Danny.SelfSignedCertificateiOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD2FFDA420D3EB0700677A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3JJ95VX9HU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				HEADER_SEARCH_PATHS = ./third_party/openssl/include;
+				INFOPLIST_FILE = SelfSignedCertificateiOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = ./third_party/openssl/lib/libcrypto.a;
+				PRODUCT_BUNDLE_IDENTIFIER = Danny.SelfSignedCertificateiOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD2FFDB420D3EB2E00677A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3JJ95VX9HU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = APDUiOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Danny.APDUiOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD2FFDB520D3EB2E00677A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3JJ95VX9HU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = APDUiOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Danny.APDUiOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD71B81F20D25DAD00EFBEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F96EE3B5D2E8EAE4D127AAA /* Pods-iOSApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JJ95VX9HU;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = iOSApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Danny.iOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "iOSApp/iOSApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD71B82020D25DAD00EFBEB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD4F0174244AA07CC8C6CD8F /* Pods-iOSApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JJ95VX9HU;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = iOSApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Danny.iOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "iOSApp/iOSApp-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		F725EBCC1F1FAD3C000A003C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22BB72BE4D9144BBD0B6683F /* Pods-SoftU2FDriver.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
@@ -1213,6 +2129,7 @@
 		};
 		F725EBCD1F1FAD3C000A003C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61195547BDE1E2B7FB45A2F4 /* Pods-SoftU2FDriver.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
@@ -1232,6 +2149,7 @@
 		};
 		F725EBE31F1FB09D000A003C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F057B81940D58F6B6D70A73 /* Pods-SoftU2FDriverLib.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				DEVELOPMENT_TEAM = VEKTX9H2N7;
@@ -1243,6 +2161,7 @@
 		};
 		F725EBE41F1FB09D000A003C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 154F2DBFEE0B3455BF5B237B /* Pods-SoftU2FDriverLib.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				DEVELOPMENT_TEAM = VEKTX9H2N7;
@@ -1254,6 +2173,7 @@
 		};
 		F738F4FB1E4A2CCC005680A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFCF41055B5F6676C65FB46C /* Pods-APDU.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
@@ -1261,7 +2181,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = VEKTX9H2N7;
+				DEVELOPMENT_TEAM = 3JJ95VX9HU;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1282,6 +2202,7 @@
 		};
 		F738F4FC1E4A2CCC005680A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25AC0D6D3FA768D20908BEE1 /* Pods-APDU.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
@@ -1289,7 +2210,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = VEKTX9H2N7;
+				DEVELOPMENT_TEAM = 3JJ95VX9HU;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1309,6 +2230,7 @@
 		};
 		F738F5381E4A2E8A005680A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A3F439AF84C091B9D108388 /* Pods-APDUTests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1324,6 +2246,7 @@
 		};
 		F738F5391E4A2E8A005680A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D25A48C5640D0DB638DC4527 /* Pods-APDUTests.release.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1339,14 +2262,16 @@
 		};
 		F738F5641E4A31DE005680A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBFA41BAC3C9F0B74BBD4481 /* Pods-SelfSignedCertificate.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = VEKTX9H2N7;
+				DEVELOPMENT_TEAM = 3JJ95VX9HU;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1371,14 +2296,16 @@
 		};
 		F738F5651E4A31DE005680A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D4393A5604278E9B3E868FE /* Pods-SelfSignedCertificate.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = VEKTX9H2N7;
+				DEVELOPMENT_TEAM = 3JJ95VX9HU;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1403,6 +2330,7 @@
 		};
 		F738F57A1E4A3328005680A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E423AD3FD097EA6A6ACF54D9 /* Pods-SelfSignedCertificateTests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1418,6 +2346,7 @@
 		};
 		F738F57B1E4A3328005680A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027A97B458C4E50AD83E88C7 /* Pods-SelfSignedCertificateTests.release.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1457,6 +2386,33 @@
 			buildConfigurations = (
 				51F0902A1E37E8C600F03AD3 /* Debug */,
 				51F0902B1E37E8C600F03AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2FFDA220D3EB0700677A5C /* Build configuration list for PBXNativeTarget "SelfSignedCertificateiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2FFDA320D3EB0700677A5C /* Debug */,
+				BD2FFDA420D3EB0700677A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2FFDB320D3EB2E00677A5C /* Build configuration list for PBXNativeTarget "APDUiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2FFDB420D3EB2E00677A5C /* Debug */,
+				BD2FFDB520D3EB2E00677A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD71B82120D25DAD00EFBEB7 /* Build configuration list for PBXNativeTarget "iOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD71B81F20D25DAD00EFBEB7 /* Debug */,
+				BD71B82020D25DAD00EFBEB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

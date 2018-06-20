@@ -5,6 +5,8 @@
 ## Build generated
 build/
 DerivedData/
+third_party/
+Pods/
 
 ## Various settings
 *.pbxuser
