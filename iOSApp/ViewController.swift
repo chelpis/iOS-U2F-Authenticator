@@ -11,8 +11,7 @@ import LocalAuthentication
 
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var channelInfo: UILabel!
+    
     @IBOutlet weak var channelStatus: UILabel!
     
     var channel : FMWSChannel?
@@ -35,9 +34,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func didTapAgree(_ sender: Any) {
-    }
-    
     @IBAction func didTapConnect(_ sender: Any) {
         _ = channel?.run()
     }
@@ -46,6 +42,7 @@ class ViewController: UIViewController {
 
 extension ViewController: FMChannelDelegate {
     func updateStatus(status: String){
+        
         self.channelStatus.text = status
     }
 }
@@ -54,27 +51,15 @@ extension ViewController: U2FAuthenticatorUserConfirmDelegate {
     
     func test(_ notification:Notification, skipOnce: Bool, with callback: @escaping Callback){
         
-        authenticationWithTouchID(callback: callback)
-//        var s = ""
-//        switch notification {
-//        case let .Register(facet):
-//            s = "Register with " + (facet ?? "site")
-//        case let .Authenticate(facet):
-//            s = "Authenticate with " + (facet ?? "site")
-//        }
-//
-//        let alertVC = UIAlertController(title: s, message: nil, preferredStyle: .alert)
-//
-//        let action = UIAlertAction(title: "Approve", style: .default)   { (alertAction) in
-//            callback(true)
-//        }
-//        let action2 = UIAlertAction(title: "Cancel", style: .default)   { (alertAction) in
-//            callback(false)
-//        }
-//        alertVC.addAction(action2)
-//        alertVC.addAction(action)
-//
-//        self.present(alertVC, animated: false, completion: nil)
+        var s = ""
+        switch notification {
+        case let .Register(facet):
+            s = "Register with " + (facet ?? "site")
+        case let .Authenticate(facet):
+            s = "Authenticate with " + (facet ?? "site")
+        }
+
+        authenticationWithTouchID(notification:s, callback: callback)
     }
 
 }
@@ -83,12 +68,13 @@ extension ViewController: U2FAuthenticatorUserConfirmDelegate {
 
 extension ViewController {
     
-    func authenticationWithTouchID(callback: @escaping Callback) {
+    func authenticationWithTouchID(notification:String, callback: @escaping Callback) {
         let localAuthenticationContext = LAContext()
         localAuthenticationContext.localizedFallbackTitle = "Use Passcode"
         
         var authError: NSError?
-        let reasonString = "To access the secure data"
+        let reasonString = notification
+//        "To access the secure data"
         
         if localAuthenticationContext.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &authError) {
             

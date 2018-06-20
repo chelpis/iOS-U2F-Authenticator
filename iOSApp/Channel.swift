@@ -28,7 +28,7 @@ class FMWSChannel:FMChannel{
     init(delegate: FMChannelDelegate) {
         self.delegate = delegate
         
-        socket = WebSocket(url: URL(string: "ws://192.168.56.2:9000/")!)
+        socket = WebSocket(url: URL(string: "ws://192.168.50.58:9000/")!)
         socket!.delegate = self
         socket!.connect()
     }
