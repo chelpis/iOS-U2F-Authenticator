@@ -49,7 +49,7 @@ extension ViewController: FMChannelDelegate {
 
 extension ViewController: U2FAuthenticatorUserConfirmDelegate {
     
-    func test(_ notification:Notification, skipOnce: Bool, with callback: @escaping Callback){
+    func askUserPermission(_ notification:Notification, skipOnce: Bool, with callback: @escaping Callback){
         
         var s = ""
         switch notification {

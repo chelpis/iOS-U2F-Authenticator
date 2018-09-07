@@ -17,7 +17,7 @@ typealias Callback = (_ success: Bool) -> Void
     }
 
 protocol U2FAuthenticatorUserConfirmDelegate:class{
-    func test(_ notification:Notification, skipOnce: Bool, with callback: @escaping Callback)
+    func askUserPermission(_ notification:Notification, skipOnce: Bool, with callback: @escaping Callback)
 }
 
 
@@ -109,7 +109,7 @@ class U2FAuthenticator {
         let facet = KnownFacets[req.applicationParameter]
         let notification = Notification.Register(facet: facet)
 
-        self.delegate?.test(notification, skipOnce: false) { tupSuccess in
+        self.delegate?.askUserPermission(notification, skipOnce: false) { tupSuccess in
             if !tupSuccess {
                 // Send no response. Otherwise Chrome will re-prompt immediately.
                 return
@@ -172,7 +172,7 @@ class U2FAuthenticator {
         let notification = Notification.Authenticate(facet: facet)
         let skipTUP = reg.inSEP
 
-        self.delegate?.test(notification, skipOnce: skipTUP) { tupSuccess in
+        self.delegate?.askUserPermission(notification, skipOnce: skipTUP) { tupSuccess in
             if !tupSuccess {
                 // Send no response. Otherwise Chrome will re-prompt immediately.
                 return

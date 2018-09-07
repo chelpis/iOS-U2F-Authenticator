@@ -28,7 +28,9 @@ class FMWSChannel:FMChannel{
     init(delegate: FMChannelDelegate) {
         self.delegate = delegate
         
-        socket = WebSocket(url: URL(string: "ws://192.168.50.58:9000/")!)
+//        socket = WebSocket(url: URL(string: "ws://192.168.50.58:9000/")!)
+        socket = WebSocket(url: URL(string: "ws://192.168.50.2:15331/")!)
+        
         socket!.delegate = self
         socket!.connect()
     }
@@ -54,15 +56,11 @@ extension FMWSChannel: WebSocketDelegate {
     func websocketDidConnect(socket: WebSocketClient){
         print("websocketDidConnect")
         self.delegate?.updateStatus(status: "websocketDidConnect")
-        
-        
     }
     func websocketDidDisconnect(socket: WebSocketClient, error: Error?){
         print("websocketDidDisconnect")
         self.delegate?.updateStatus(status: "websocketDidDisconnect")
-        
     }
-    
     
     func websocketDidReceiveMessage(socket: WebSocketClient, text: String){
         print("websocketDidReceiveMessage")
