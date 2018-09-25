@@ -209,6 +209,7 @@
 		BD2FFE0B20D779E500677A5C /* iOSApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		BD2FFE1120D7872100677A5C /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		BD3FE7E421422B060066E75C /* private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = private.h; sourceTree = "<group>"; };
+		BD4329E6214F5639008C9959 /* iOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOSApp.entitlements; sourceTree = "<group>"; };
 		BD71B81020D25DAB00EFBEB7 /* iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD71B81220D25DAC00EFBEB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD71B81420D25DAC00EFBEB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -448,6 +449,7 @@
 		BD71B81120D25DAC00EFBEB7 /* iOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				BD4329E6214F5639008C9959 /* iOSApp.entitlements */,
 				BD71B81220D25DAC00EFBEB7 /* AppDelegate.swift */,
 				51E2145F1E3823E7005B2864 /* SHA256.swift */,
 				51E214611E382521005B2864 /* WebSafeBase64.swift */,
@@ -714,6 +716,11 @@
 						DevelopmentTeam = 3JJ95VX9HU;
 						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					F738F4F01E4A2CCB005680A2 = {
 						CreatedOnToolsVersion = 8.0;
@@ -1338,6 +1345,7 @@
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = iOSApp/iOSApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3JJ95VX9HU;
@@ -1374,6 +1382,7 @@
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = iOSApp/iOSApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3JJ95VX9HU;
